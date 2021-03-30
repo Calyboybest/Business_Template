@@ -1,0 +1,182 @@
+/* TABLE STYLE BY CALEB CHRISTOPHER
+LIKE MY PAGE AND FOLLOW ME @NERDY*/
+
+
+
+
+
+/*Styles and position the entire body*/
+
+body {
+    box-sizing: border-box;
+    display:flex;
+
+}
+
+/*This property styles the left box size, image and positon*/
+.box {
+    border: 2px solid #000;
+    width: 400px;
+    height: 700px;
+    margin-top: 0px;
+    background-image: url(../Graphics/high_rise.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*This propeerty darkens the image in .box*/
+.overlay {
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    top: 10px;
+
+}
+
+/*Sizes and positon the texts in .box*/
+p{
+    
+    padding: 150px 50px 120px 70px;
+    position: absolute;
+    color: #fff;
+    z-index:1;
+    font-size: 14px;
+    font-family: 'nunitosemibold';
+}
+/*Changes the phone number and the email's color*/
+#numstyle {
+    color: rgb(63, 211, 63);
+}
+
+/*Sizes and positon the heading texts in .box*/
+h2 {
+    padding: 150px 50px 120px 70px;
+    position: absolute;
+    color: #fff;
+    z-index:1;
+    font-size: 14px;
+    font-family: 'nunitosemibold';
+}
+
+/*This style was self chosen to break the address line in .box*/
+span {
+    display: block;
+}
+
+/*Sizes and position the images element*/
+img{
+    width: 14px;
+    height: 18px;
+    object-fit: contain;
+    position: absolute;
+    left:35px;
+    right:5;
+}
+/*THE PROPERTIES BELOW APPLIES TO THE TABLES ON THE RIGHT*/
+
+
+
+/*This sizes and positions the caption on the table*/
+caption {
+    margin:0 0 10px 0;
+    font-family: 'nunitoregular';
+    font-size: 1.6em;
+}
+
+  /*This properties sizes, styles and position the table*/
+  #table1 {
+    table-layout:fixed;
+    border-collapse: collapse;
+    border: 2px solid rgb(216, 216, 216);
+    width: 400px;
+    height: 110px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+#table2, #table3,
+  #table4 {
+    table-layout:fixed;
+    border-collapse: collapse;
+    border: 2px solid rgb(216, 216, 216);
+    width: 400px;
+    height: 110px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+/*This property was created seperately to give additonal sizing to the MESSAGE BOX*/
+    .tee {
+          height: 105px;
+          text-align: left;
+      }
+
+/*Styles and position the "table-row (tr) element"*/
+  tr{
+      color: #000;
+      border-bottom: 2px solid rgb(216, 216, 216);
+      width: 400px;
+      height: 20px;
+
+  }
+/*Styles and sizes the th and td elements*/
+  th, td {
+      padding: 15px 10px;
+      text-align: left;
+      font-size:.8em;
+      font-family: 'nunitosemibold';
+      color:rgb(92, 91, 91);
+ 
+  }
+
+
+/*Gives additional styling to the (td) element*/
+  td {
+    border-right: 2px solid rgb(216, 216, 216);
+    width: 200px;
+
+  }
+
+  /*Styles and position the input element*/
+  input {
+      border: none;
+      padding: 5px auto;
+      margin-bottom: 5px;
+      font-size: 1.2em;
+      color: rgb(143, 142, 142);
+      font-family: 'nunitosemibold';
+
+  }
+/*Gives additional styling to the email input*/
+   #email {
+    padding: 10px 10px;
+    text-align: left;
+    font-size:.8em;
+    font-family: 'nunitosemibold';
+    border: none;
+   }
+/*This property places both boxes side by side*/
+   section {
+       margin-bottom: 25px;
+       display: block;
+   }
+.button {
+    border: none;
+    padding: 15px 10px;
+    width: 150px;
+    background-color:rgb(50, 170, 50);
+    margin: 20px 10px 0 150px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'nunitosemibold';
+    color: #fff;
+
+}
+
+.button:hover {
+    background-color:rgb(35, 133, 35);
+
+}
